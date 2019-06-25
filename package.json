@@ -1,0 +1,73 @@
+{
+  "name": "vue-guide-sito",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "cordova-build-android": "CORDOVA_PLATFORM=android vue-cli-service cordova-build-android",
+    "cordova-build-browser": "CORDOVA_PLATFORM=browser vue-cli-service cordova-build-browser",
+    "cordova-build-ios": "CORDOVA_PLATFORM=ios vue-cli-service cordova-build-ios",
+    "cordova-build-only-www-android": "CORDOVA_PLATFORM=android vue-cli-service cordova-build-only-www-android",
+    "cordova-build-only-www-browser": "CORDOVA_PLATFORM=browser vue-cli-service cordova-build-only-www-browser",
+    "cordova-build-only-www-ios": "CORDOVA_PLATFORM=ios vue-cli-service cordova-build-only-www-ios",
+    "cordova-build-only-www-osx": "CORDOVA_PLATFORM=osx vue-cli-service cordova-build-only-www-osx",
+    "cordova-build-osx": "CORDOVA_PLATFORM=osx vue-cli-service cordova-build-osx",
+    "cordova-prepare": "vue-cli-service cordova-prepare",
+    "cordova-serve-android": "CORDOVA_PLATFORM=android vue-cli-service cordova-serve-android",
+    "cordova-serve-browser": "CORDOVA_PLATFORM=browser vue-cli-service cordova-serve-browser",
+    "cordova-serve-ios": "CORDOVA_PLATFORM=ios vue-cli-service cordova-serve-ios",
+    "cordova-serve-osx": "CORDOVA_PLATFORM=osx vue-cli-service cordova-serve-osx"
+  },
+  "dependencies": {
+    "@capacitor/android": "^1.1.0",
+    "@capacitor/cli": "1.1.0",
+    "@capacitor/core": "1.1.0",
+    "@ionic/core": "^4.5.0",
+    "@ionic/vue": "0.0.4",
+    "@vue/cli-plugin-pwa": "^3.8.0",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.24",
+    "core-js": "^2.6.5",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.6",
+    "vuelidate": "^0.7.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-cli-plugin-cordova": "^2.3.1",
+    "vue-template-compiler": "^2.6.10",
+    "ws": "3.3.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
