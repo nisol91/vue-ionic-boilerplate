@@ -1,6 +1,14 @@
 <template>
   <div>
     Home
+    <ion-fab vertical="start" horizontal="start" edge slot="fixed">
+      <ion-fab-button>
+        <ion-icon name="settings"></ion-icon>
+      </ion-fab-button>
+      <ion-fab-list side="end">
+        <ion-fab-button><ion-icon name="logo-vimeo"></ion-icon></ion-fab-button>
+      </ion-fab-list>
+    </ion-fab>
   </div>
 </template>
 

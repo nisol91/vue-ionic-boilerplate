@@ -52,6 +52,12 @@ export default {
   color: #2c3e50;
   margin: 10px;
 }
+ion-scroll[direction=x] {
+  width: 100vw;
+}
+ion-scroll[direction=y] {
+  height: 100vh;
+}
 /* transition */
 .fade-enter-active,
 .fade-leave-active {
