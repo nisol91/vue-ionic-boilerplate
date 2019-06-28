@@ -1,6 +1,6 @@
 <template>
   <div>
-    Home
+    Home!
     <ion-fab vertical="start" horizontal="start" edge slot="fixed">
       <ion-fab-button>
         <ion-icon name="settings"></ion-icon>
